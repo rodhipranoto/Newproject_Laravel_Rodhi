@@ -1,0 +1,64 @@
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$ git init
+Reinitialized existing Git repository in C:/Newproject_Laravel_Rodhi/.git/
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$ git add .
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$ git commit -m "first commit"
+On branch main
+nothing to commit, working tree clean
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$ git branch -M main
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$ git remote add origin https://github.com/rodhipranoto/Newproject_Laravel_Rodhi.git
+error: remote origin already exists.
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$ git push -u origin main
+
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 275 bytes | 2.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rodhipranoto/Newproject_Laravel_Rodhi.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$ git add .
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$ git commit -m "add umur"
+[main 3809549] add umur
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 311 bytes | 15.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rodhipranoto/Newproject_Laravel_Rodhi.git
+   017235b..3809549  main -> main
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$ git pull origin main
+From https://github.com/rodhipranoto/Newproject_Laravel_Rodhi
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+ASUS@DESKTOP-JLBVJUG MINGW64 /c/Newproject_Laravel_Rodhi (main)
+$
